@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.util.StreamUtils;
 
-@WebServlet(name = "RequestBodyStringServlet",urlPatterns = "/request-body-string")
+@WebServlet(name = "requestBodyStringServlet",urlPatterns = "/request-body-string")
 public class RequestBodyStringServlet extends HttpServlet {
 
     @Override
